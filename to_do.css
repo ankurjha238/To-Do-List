@@ -1,0 +1,37 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+#main{
+    color: red;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+#arr{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+}
+#h{
+    font-family: 'Lobster', cursive;
+    padding-top: 15px;
+}
+#head{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    color: ghostwhite;
+}
+#box{
+    width: 600px;
+    text-align: center;
+    margin-left: 30%;
+    font-family: 'Concert One', cursive;
+}
+#num{
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.38);
+    color: red;
+}
