@@ -10,6 +10,7 @@ $(function(){
         function addtask(){
             let value = input.val();
             input.val("");
+            if(value !== ""){
             list.append(
                 $("<li>").append($('<span>')
                     .text(value).append($("<input type='checkbox'>").click(function () {
@@ -24,7 +25,7 @@ $(function(){
                     current.next().after(current);
                 }))
             )
-        }
+        }}
 
     input.keypress(function (e) {
     if(e.which === 13){

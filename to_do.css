@@ -24,11 +24,18 @@ body{
     text-align: center;
     color: ghostwhite;
 }
-#box{
-    width: 600px;
-    text-align: center;
-    margin-left: 30%;
+.box{
+    width: 30%;
+    /*text-align: center;*/
+    /*margin-left: 30%;*/
+
+}
+.font{
     font-family: 'Concert One', cursive;
+    width: 40%;
+    font-size: 0;
+    /*display: flex;*/
+    /*flex-wrap: nowrap;*/
 }
 #num{
     width: 1300px;
